@@ -21,8 +21,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:16px 44px;display:f
 .btn{padding:12px 28px;font-size:11px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;cursor:pointer;transition:all .4s var(--ease);font-family:var(--sans);border:none;display:inline-block}.btn-g{background:var(--gold);color:var(--bg);font-weight:600}.btn-g:hover{background:var(--gold-l);transform:translateY(-2px);box-shadow:0 8px 28px rgba(201,165,90,.22)}.btn-o{background:transparent;color:var(--white);border:1px solid rgba(255,255,255,.13)}.btn-o:hover{border-color:var(--gold);color:var(--gold)}
 section{padding:100px 44px;position:relative}.stag{font-size:10px;letter-spacing:5px;text-transform:uppercase;color:var(--gold);margin-bottom:12px}.sttl{font-family:var(--serif);font-size:clamp(28px,4.2vw,48px);font-weight:300;line-height:1.15;margin-bottom:18px}.sttl em{font-style:italic;color:var(--gold)}.sdsc{color:var(--gray-l);font-size:14px;max-width:540px;line-height:1.8;font-weight:300}.rv{opacity:0;transform:translateY(30px);transition:opacity .8s var(--ease2),transform .8s var(--ease2)}.rv.v{opacity:1;transform:translateY(0)}.gln{width:45px;height:1px;background:var(--gold);margin:18px 0}
 .about{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;background:var(--bg2)}.about-img{position:relative;height:440px;overflow:hidden}.about-img img{width:100%;height:100%;object-fit:cover;filter:brightness(.85)}.about-img::after{content:'';position:absolute;inset:0;border:1px solid rgba(201,165,90,.25);transform:translate(14px,14px);pointer-events:none}.sts{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:40px}.st{text-align:center}.st-n{font-family:var(--serif);font-size:34px;color:var(--gold);font-weight:300}.st-l{font-size:9px;color:var(--gray);letter-spacing:2px;text-transform:uppercase;margin-top:2px}
-.founder{background:var(--bg);overflow:hidden}.founder-wrap{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.founder-img{position:relative;width:100%;max-width:400px;margin:0 auto}.founder-img img{width:100%;aspect-ratio:3/4;object-fit:cover;filter:brightness(.9) saturate(.9);position:relative;z-index:1}.founder-frame{position:absolute;inset:0;border:1px solid var(--gold-d);transform:translate(16px,16px);z-index:0}.founder-role{font-size:13px;color:var(--gold);letter-spacing:3px;text-transform:uppercase;margin-bottom:4px}.founder-quote{font-family:var(--serif);font-size:clamp(18px,2.2vw,24px);font-style:italic;color:var(--gray-l);line-height:1.6;margin:20px 0;padding-left:20px;border-left:2px solid var(--gold)}.founder-placeholder{width:100%;aspect-ratio:3/4;background:linear-gradient(135deg,var(--bg4),var(--bg3));display:flex;align-items:center;justify-content:center;position:relative;z-index:1}.founder-placeholder i{font-size:60px;color:var(--gray-d)}
-@media(max-width:768px){.founder-wrap{grid-template-columns:1fr;gap:36px;text-align:center}.founder-quote{border-left:none;padding-left:0;border-top:1px solid var(--gold);padding-top:16px}.founder-img{max-width:280px}}
+.founder{background:var(--bg);overflow:hidden}.founder-grid{display:grid;grid-template-columns:1fr 1fr;gap:0;align-items:stretch;min-height:500px}.founder-img{position:relative;overflow:hidden}.founder-img img{width:100%;height:100%;object-fit:cover;filter:brightness(.9)}.founder-img-ph{width:100%;height:100%;min-height:500px;background:linear-gradient(135deg,var(--bg3),var(--bg4));display:flex;align-items:center;justify-content:center}.founder-img-ph i{font-size:80px;color:var(--gray-d)}.founder-content{display:flex;flex-direction:column;justify-content:center;padding:80px 60px;background:var(--bg2);position:relative}.founder-content::before{content:"";position:absolute;left:0;top:50%;transform:translateY(-50%);width:3px;height:60px;background:var(--gold)}.founder-name{font-family:var(--serif);font-size:clamp(26px,3.5vw,38px);font-weight:300;margin-bottom:4px}.founder-name em{color:var(--gold);font-style:italic}.founder-role{font-size:11px;color:var(--gold);letter-spacing:3px;text-transform:uppercase;margin-bottom:24px}.founder-quote{font-family:var(--serif);font-size:20px;font-style:italic;color:var(--gold-l);line-height:1.5;margin-bottom:24px;position:relative;padding-left:20px;border-left:1px solid var(--gold-d)}.founder-text{color:var(--gray-l);font-size:13px;line-height:2;font-weight:300}.founder-sig{margin-top:30px;display:flex;align-items:center;gap:14px}.founder-sig-line{width:40px;height:1px;background:var(--gold)}.founder-sig-name{font-family:var(--serif);font-size:14px;color:var(--gold);letter-spacing:1px}@media(max-width:1024px){.founder-grid{grid-template-columns:1fr}.founder-content{padding:50px 30px}.founder-img-ph{min-height:350px}}@media(max-width:768px){.founder-content{padding:36px 20px}.founder-content::before{display:none}}
 .sg{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-top:44px}.sc{background:var(--bg3);padding:32px 22px;transition:all .5s;position:relative;overflow:hidden}.sc::before{content:'';position:absolute;top:0;left:0;width:100%;height:2px;background:var(--gold);transform:scaleX(0);transition:transform .5s var(--ease2)}.sc:hover::before{transform:scaleX(1)}.sc:hover{background:var(--bg4)}.sc i{font-size:22px;color:var(--gold);margin-bottom:14px;display:block}.sc h3{font-family:var(--serif);font-size:16px;font-weight:400;margin-bottom:8px}.sc p{font-size:11px;color:var(--gray);line-height:1.7}
 .projects{background:var(--bg2)}.ph{display:flex;justify-content:space-between;align-items:end;margin-bottom:44px;flex-wrap:wrap;gap:16px}.fls{display:flex;gap:14px;flex-wrap:wrap}.fb{background:none;border:none;color:var(--gray);font-size:10px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;padding:5px 0;border-bottom:1px solid transparent;transition:all .3s;font-family:var(--sans)}.fb.a,.fb:hover{color:var(--gold);border-color:var(--gold)}.pg{display:grid;grid-template-columns:repeat(3,1fr);gap:3px}.pc{position:relative;aspect-ratio:4/3;overflow:hidden;cursor:pointer}.pc img{width:100%;height:100%;object-fit:cover;transition:transform .7s var(--ease),filter .7s}.pc:hover img{transform:scale(1.06);filter:brightness(.4)}.pi{position:absolute;bottom:0;left:0;right:0;padding:22px;transform:translateY(14px);opacity:0;transition:all .5s var(--ease2)}.pc:hover .pi{transform:translateY(0);opacity:1}.pi h3{font-family:var(--serif);font-size:18px;margin-bottom:3px}.pi span{font-size:10px;color:var(--gold);letter-spacing:2px;text-transform:uppercase}
 .cg{display:grid;grid-template-columns:repeat(6,1fr);gap:24px;margin-top:44px;align-items:center}.cli{display:flex;align-items:center;justify-content:center;padding:16px;opacity:.3;transition:all .4s;border:1px solid transparent}.cli:hover{opacity:1;border-color:rgba(201,165,90,.12)}.cli span{font-family:var(--serif);font-size:14px;color:var(--gray-l);text-align:center;font-weight:600;letter-spacing:1px}
@@ -36,7 +35,7 @@ footer{background:var(--bg);padding:44px 44px 20px;border-top:1px solid rgba(255
 .tst{position:fixed;bottom:22px;right:22px;background:var(--gold);color:var(--bg);padding:12px 20px;font-size:12px;font-weight:600;z-index:10002;transform:translateY(70px);opacity:0;transition:all .4s var(--ease2);border-radius:2px}.tst.s{transform:translateY(0);opacity:1}
 .fb-status{position:fixed;top:10px;right:10px;z-index:10003;font-size:9px;padding:4px 10px;border-radius:2px;pointer-events:none;transition:opacity .5s}.fb-on{background:#1B5E20;color:#A5D6A7;opacity:1}.fb-off{background:#B71C1C;color:#EF9A9A;opacity:1}.fb-hide{opacity:0}
 .upload-prog{width:100%;height:3px;background:var(--bg4);margin-top:6px;border-radius:2px;overflow:hidden;display:none}.upload-prog .bar{height:100%;background:var(--gold);width:0;transition:width .3s}
-[dir="rtl"] body{font-family:var(--ar)}[dir="rtl"] .sttl,[dir="rtl"] .hero-h,[dir="rtl"] .sc h3,[dir="rtl"] .vi h3{font-family:var(--ar)}[dir="rtl"] .about{direction:rtl}[dir="rtl"] .founder-wrap{direction:rtl}[dir="rtl"] .founder-quote{border-left:none;border-right:2px solid var(--gold);padding-left:0;padding-right:20px}[dir="rtl"] .ph{flex-direction:row-reverse}[dir="rtl"] .cit{flex-direction:row-reverse;text-align:right}[dir="rtl"] .ftt{direction:rtl}[dir="rtl"] .ftb{flex-direction:row-reverse}
+[dir="rtl"] body{font-family:var(--ar)}[dir="rtl"] .sttl,[dir="rtl"] .hero-h,[dir="rtl"] .sc h3,[dir="rtl"] .vi h3{font-family:var(--ar)}[dir="rtl"] .about{direction:rtl}[dir="rtl"] .ph{flex-direction:row-reverse}[dir="rtl"] .cit{flex-direction:row-reverse;text-align:right}[dir="rtl"] .ftt{direction:rtl}[dir="rtl"] .ftb{flex-direction:row-reverse}
 @media(max-width:1024px){nav{padding:12px 20px}section{padding:70px 20px}.sg{grid-template-columns:repeat(2,1fr)}.pg{grid-template-columns:repeat(2,1fr)}.about{grid-template-columns:1fr;gap:30px}.ctg{grid-template-columns:1fr}.ftt{grid-template-columns:1fr 1fr;gap:20px}.cg{grid-template-columns:repeat(3,1fr)}.vg{grid-template-columns:1fr}}
 @media(max-width:768px){.nl{display:none}.mbtn{display:block}nav{padding:10px 14px}section{padding:50px 14px}.sg{grid-template-columns:1fr}.pg{grid-template-columns:1fr}.hero-cta{flex-direction:column;align-items:center}.fr{grid-template-columns:1fr}.sts{gap:10px}.st-n{font-size:24px}.cg{grid-template-columns:repeat(2,1fr);gap:14px}.ftt{grid-template-columns:1fr}.ph{flex-direction:column;align-items:start}.ftb{flex-direction:column;text-align:center}}
 </style>
@@ -48,7 +47,7 @@ footer{background:var(--bg);padding:44px 44px 20px;border-top:1px solid rgba(255
 <div class="mm" id="mobM"><button class="mm-x" onclick="tgMob()"><i class="fas fa-times"></i></button><div id="mobLinks"></div></div>
 <section class="hero" id="hero"><div class="hero-bg"><img id="hImg" alt=""></div><div class="hero-ov"></div><div class="hero-n"></div><div class="hero-c"><p class="hero-tag" id="hTag"></p><h1 class="hero-h" id="hTitle"></h1><p class="hero-p" id="hSub"></p><div class="hero-cta"><a href="#projects" class="btn btn-g" id="hBtn1"></a><a href="#contact" class="btn btn-o" id="hBtn2"></a></div></div><div class="hero-sc"><span id="hScr"></span><div class="ln"></div></div></section>
 <section class="about" id="about"><div class="about-img rv"><img id="aImg" alt=""></div><div class="rv"><p class="stag" id="aTag"></p><h2 class="sttl" id="aTitle"></h2><div class="gln"></div><p class="sdsc" id="aDesc"></p><div class="sts" id="aStats"></div></div></section>
-<section class="founder" id="founder"><div class="founder-wrap rv"><div class="founder-img"><img id="fImg" alt=""><div class="founder-frame"></div></div><div class="founder-text"><p class="stag" id="fTag"></p><h2 class="sttl" id="fName"></h2><p class="founder-role" id="fRole"></p><div class="gln"></div><blockquote class="founder-quote" id="fQuote"></blockquote><p class="sdsc" id="fBio"></p></div></div></section>
+<section class="founder" id="founder"><div class="founder-grid rv"><div class="founder-img"><img id="fdrImg" alt="" style="display:none"><div class="founder-img-ph" id="fdrPh"><i class="fas fa-user-tie"></i></div></div><div class="founder-content"><p class="stag" id="fdrTag"></p><h2 class="founder-name" id="fdrName"></h2><p class="founder-role" id="fdrRole"></p><blockquote class="founder-quote" id="fdrQuote"></blockquote><p class="founder-text" id="fdrText"></p><div class="founder-sig"><div class="founder-sig-line"></div><div class="founder-sig-name" id="fdrSig"></div></div></div></div></section>
 <section id="services"><div class="rv"><p class="stag" id="sTag"></p><h2 class="sttl" id="sTitle"></h2></div><div class="sg rv" id="sGrid"></div></section>
 <section class="projects" id="projects"><div class="ph rv"><div><p class="stag" id="pTag"></p><h2 class="sttl" id="pTitle"></h2></div><div class="fls" id="pFls"></div></div><div class="pg rv" id="pGrid"></div></section>
 <section id="clients"><div class="rv" style="text-align:center"><p class="stag" style="text-align:center" id="clTag"></p><h2 class="sttl" style="text-align:center" id="clTitle"></h2></div><div class="cg rv" id="clGrid"></div></section>
@@ -145,8 +144,8 @@ const DEFAULT_DATA={
     {icon:"fa-envelope",titleEn:"Email",titleAr:"البريد",en:"info@carbonengineering.om",ar:"info@carbonengineering.om"},
     {icon:"fa-clock",titleEn:"Hours",titleAr:"ساعات العمل",en:"Sun - Thu: 8AM - 5PM",ar:"الأحد - الخميس: ٨ ص - ٥ م"}
   ]},
-  founder:{tag:{en:"The Founder",ar:"المؤسس"},name:{en:"Sultan <em>Al Dhukhri</em>",ar:"سلطان <em>الذخري</em>"},role:{en:"Founder & Chief Executive Officer",ar:"المؤسس والرئيس التنفيذي"},quote:{en:"I founded Carbon with a singular belief — that every space we build should tell a story, outlast trends, and elevate the lives of those who inhabit it.",ar:"أسست كاربون بقناعة واحدة — أن كل مساحة نبنيها يجب أن تروي قصة، وتتجاوز الصيحات، وترتقي بحياة من يعيش فيها."},bio:{en:"Driven by Oman's Vision 2040 and a deep passion for architectural excellence, Sultan Al Dhukhri established Carbon Engineering Design in 2019. Starting from a clear vision — that Omani projects deserve world-class design paired with meticulous execution — he built a multidisciplinary firm spanning architecture, construction, interior fit-out, and joinery. Under his leadership, Carbon has delivered landmark projects for clients including Bank Muscat, Port of Duqm, Khazaen Economic City, and the Ministry of Housing, earning a reputation for uncompromising quality and timely delivery. His philosophy centers on three pillars: time, quality, and communication — ensuring every client receives a seamless journey from first concept to final handover.",ar:"مدفوعاً برؤية عُمان ٢٠٤٠ وشغف عميق بالتميز المعماري، أسس سلطان الذخري شركة كاربون للاستشارات الهندسية في ٢٠١٩. انطلاقاً من رؤية واضحة بأن المشاريع العُمانية تستحق تصميماً عالمياً مقروناً بتنفيذ دقيق، بنى شركة متعددة التخصصات تشمل العمارة والبناء والتشطيبات الداخلية والنجارة. تحت قيادته، نفذت كاربون مشاريع بارزة لعملاء مثل بنك مسقط وميناء الدقم ومدينة خزائن الاقتصادية ووزارة الإسكان. فلسفته ترتكز على ثلاث ركائز: الوقت والجودة والتواصل — لضمان تجربة سلسة لكل عميل من المفهوم الأول حتى التسليم النهائي."},img:""},
-  nav:[{en:"About",ar:"من نحن",href:"#about"},{en:"Founder",ar:"المؤسس",href:"#founder"},{en:"Services",ar:"خدماتنا",href:"#services"},{en:"Projects",ar:"مشاريعنا",href:"#projects"},{en:"Clients",ar:"عملاؤنا",href:"#clients"},{en:"Contact",ar:"تواصل معنا",href:"#contact"}],
+  founder:{tag:{en:"The Founder",ar:"المؤسس"},name:{en:"Sultan <em>Al Dhukhri</em>",ar:"سلطان <em>الذخري</em>"},role:{en:"Founder & CEO",ar:"المؤسس والرئيس التنفيذي"},quote:{en:"\"Every great structure begins with a bold vision and the courage to build it.\"",ar:"\"كل بناء عظيم يبدأ برؤية جريئة وشجاعة لتحقيقها.\""},text:{en:"Driven by a passion for excellence and inspired by Oman Vision 2040, Sultan Al Dhukhri founded Carbon Engineering Design in 2019 with a clear mission: to redefine the standards of architectural design, construction, and fit-out in the Sultanate. Starting from a small office in Al Azaiba, Muscat, Sultan assembled a team of dedicated architects, engineers, and craftsmen who shared his unwavering commitment to quality. Within just a few years, Carbon grew from a boutique consultancy into a full-service engineering firm trusted by major institutions — from Bank Muscat and the Ministry of Housing to Khazaen Economic City and Sukumvit Hospital. His hands-on leadership style, combined with a deep understanding of both traditional Omani aesthetics and contemporary international design, has positioned Carbon as a go-to firm for clients who demand nothing less than perfection.",ar:"مدفوعاً بشغفه بالتميز ومستلهماً من رؤية عُمان ٢٠٤٠، أسس سلطان الذخري شركة كاربون للاستشارات الهندسية في عام ٢٠١٩ برسالة واضحة: إعادة تعريف معايير التصميم المعماري والبناء والتشطيبات في السلطنة. بدأ من مكتب صغير في العذيبة بمسقط، وجمع فريقاً من المهندسين المعماريين والمهندسين والحرفيين المتميزين الذين يشاركونه التزامه الراسخ بالجودة. خلال سنوات قليلة فقط، نمت كاربون من استشارات هندسية صغيرة إلى شركة هندسية متكاملة يثق بها كبار المؤسسات — من بنك مسقط ووزارة الإسكان إلى مدينة خزائن الاقتصادية ومستشفى سكومفيت. أسلوبه القيادي المباشر، إلى جانب فهمه العميق للجماليات العُمانية التقليدية والتصميم الدولي المعاصر، جعل كاربون الخيار الأول للعملاء الذين لا يقبلون بأقل من الكمال."},sig:{en:"Sultan Al Dhukhri — Founder",ar:"سلطان الذخري — المؤسس"},img:""},
+  nav:[{en:"About",ar:"من نحن",href:"#about"},ar:"من نحن",href:"#about"},{en:"Services",ar:"خدماتنا",href:"#services"},{en:"Projects",ar:"مشاريعنا",href:"#projects"},{en:"Clients",ar:"عملاؤنا",href:"#clients"},{en:"Contact",ar:"تواصل معنا",href:"#contact"}],
   footer:{desc:{en:"Transforming visions into architectural masterpieces across Oman.",ar:"نحوّل الرؤى إلى تحف معمارية في عُمان."},copy:{en:"© 2025 Carbon Engineering Design. All rights reserved.",ar:"© ٢٠٢٥ كاربون للاستشارات الهندسية. جميع الحقوق محفوظة."},cr:{en:"CR: 1350041",ar:"سجل: ١٣٥٠٠٤١"}},
   settings:{pw:"carbon2025"}
 };
@@ -198,19 +197,26 @@ async function deleteInquiry(i){
 }
 
 async function uploadImage(file){
-  // If Firebase Storage available, upload there
-  if(firebaseReady&&storage){
-    try{
-      const ref=storage.ref('images/'+Date.now()+'_'+file.name);
-      const snap=await ref.put(file);
-      const url=await snap.ref.getDownloadURL();
-      console.log("🖼 Image uploaded:",url);
-      return url;
-    }catch(e){console.error("Upload error:",e)}
-  }
-  // Fallback: convert to base64
-  return new Promise((res)=>{
-    const r=new FileReader();r.onload=e=>res(e.target.result);r.readAsDataURL(file);
+  // Compress and convert to base64 (works everywhere, no CORS issues)
+  return new Promise((resolve)=>{
+    const reader=new FileReader();
+    reader.onload=function(e){
+      const img=new Image();
+      img.onload=function(){
+        const canvas=document.createElement('canvas');
+        const MAX=600;
+        let w=img.width,h=img.height;
+        if(w>h){if(w>MAX){h*=MAX/w;w=MAX}}else{if(h>MAX){w*=MAX/h;h=MAX}}
+        canvas.width=w;canvas.height=h;
+        const ctx=canvas.getContext('2d');
+        ctx.drawImage(img,0,0,w,h);
+        const compressed=canvas.toDataURL('image/jpeg',0.6);
+        console.log('🖼 Image compressed:',Math.round(compressed.length/1024)+'KB');
+        resolve(compressed);
+      };
+      img.src=e.target.result;
+    };
+    reader.readAsDataURL(file);
   });
 }
 
@@ -233,13 +239,16 @@ function renderAll(){
   document.getElementById('aDesc').innerHTML=L(D.about.desc);
   let sh='';D.about.stats.forEach(s=>{sh+=`<div class="st"><div class="st-n">${s.n}</div><div class="st-l">${L(s)}</div></div>`});document.getElementById('aStats').innerHTML=sh;
   // Founder
-  document.getElementById('fTag').innerHTML=L(D.founder.tag);
-  document.getElementById('fName').innerHTML=L(D.founder.name);
-  document.getElementById('fRole').innerHTML=L(D.founder.role);
-  document.getElementById('fQuote').innerHTML='"'+L(D.founder.quote)+'"';
-  document.getElementById('fBio').innerHTML=L(D.founder.bio);
-  const fHasImg=D.founder.img&&D.founder.img.length>5;
-  document.getElementById('fImg').parentElement.innerHTML=fHasImg?`<img id="fImg" src="${getImg(D.founder.img)}" alt="${D.founder.name.en}"><div class="founder-frame"></div>`:'<div class="founder-placeholder"><i class="fas fa-user-tie"></i></div><div class="founder-frame"></div>';
+  const fdrHasImg=D.founder.img&&D.founder.img.length>5;
+  const fdrImgEl=document.getElementById('fdrImg');
+  const fdrPhEl=document.getElementById('fdrPh');
+  if(fdrHasImg){fdrImgEl.src=getImg(D.founder.img);fdrImgEl.style.display='block';fdrPhEl.style.display='none'}else{fdrImgEl.style.display='none';fdrPhEl.style.display='flex'}
+  document.getElementById('fdrTag').innerHTML=L(D.founder.tag);
+  document.getElementById('fdrName').innerHTML=L(D.founder.name);
+  document.getElementById('fdrRole').innerHTML=L(D.founder.role);
+  document.getElementById('fdrQuote').innerHTML=L(D.founder.quote);
+  document.getElementById('fdrText').innerHTML=L(D.founder.text);
+  document.getElementById('fdrSig').innerHTML=L(D.founder.sig);
   document.getElementById('sTag').innerHTML=L(D.services.tag);
   document.getElementById('sTitle').innerHTML=L(D.services.title);
   let sg='';D.services.items.forEach(s=>{sg+=`<div class="sc"><i class="fas ${s.icon}"></i><h3>${lang==='ar'?s.ar:s.en}</h3><p>${lang==='ar'?s.descAr:s.descEn}</p></div>`});document.getElementById('sGrid').innerHTML=sg;
@@ -294,15 +303,42 @@ function openModal(h){document.getElementById('eModalC').innerHTML=h;document.ge
 function clModal(){document.getElementById('eModal').classList.remove('o')}
 function textF(id,l,v,d){return`<div class="fg" style="margin-bottom:12px"><label>${l}</label><input type="text" id="${id}" value="${(v||'').replace(/"/g,'&quot;')}"${d?' dir="rtl"':''}></div>`}
 function areaF(id,l,v,d){return`<div class="fg" style="margin-bottom:12px"><label>${l}</label><textarea id="${id}" rows="3"${d?' dir="rtl"':''}>${v||''}</textarea></div>`}
-function imgUpHTML(id,cur,l){return`<div class="fg" style="margin-bottom:12px"><label>${l}</label>${cur?`<img src="${getImg(cur)}" class="img-prev" style="display:block">`:'<img class="img-prev">'}<input type="file" accept="image/*" onchange="prevImgUp(this,'${id}')" style="margin-top:6px"><input type="hidden" id="${id}" value=""></div>`}
-function prevImgUp(inp,hid){const f=inp.files[0];if(!f)return;const r=new FileReader();r.onload=e=>{document.getElementById(hid).value='__pending__';document.getElementById(hid).dataset.file=f.name;const p=inp.parentElement.querySelector('.img-prev');if(p){p.src=e.target.result;p.style.display='block'}inp.dataset.pendingFile='1'};r.readAsDataURL(f)}
+function imgUpHTML(id,cur,l){return`<div class="fg" style="margin-bottom:12px"><label>${l}</label>${cur?`<img src="${getImg(cur)}" class="img-prev" style="display:block">`:'<img class="img-prev">'}<input type="file" accept="image/*" onchange="prevImgUp(this,'${id}')" style="margin-top:6px"><input type="hidden" id="${id}" value=""><div class="upload-prog" id="${id}_prog"><div class="bar"></div></div></div>`}
+function prevImgUp(inp,hid){
+  const f=inp.files[0];if(!f)return;
+  // Show loading
+  const prog=document.getElementById(hid+'_prog');
+  if(prog){prog.style.display='block';prog.querySelector('.bar').style.width='30%'}
+  const reader=new FileReader();
+  reader.onload=function(e){
+    if(prog)prog.querySelector('.bar').style.width='60%';
+    const img=new Image();
+    img.onload=function(){
+      // Compress image via canvas
+      const canvas=document.createElement('canvas');
+      const MAX=600;
+      let w=img.width,h=img.height;
+      if(w>h){if(w>MAX){h*=MAX/w;w=MAX}}else{if(h>MAX){w*=MAX/h;h=MAX}}
+      canvas.width=w;canvas.height=h;
+      canvas.getContext('2d').drawImage(img,0,0,w,h);
+      const b64=canvas.toDataURL('image/jpeg',0.6);
+      // Store directly in hidden input
+      document.getElementById(hid).value=b64;
+      // Show preview
+      const prev=inp.parentElement.querySelector('.img-prev');
+      if(prev){prev.src=b64;prev.style.display='block'}
+      if(prog){prog.querySelector('.bar').style.width='100%';setTimeout(()=>{prog.style.display='none'},800)}
+      console.log('✅ Image ready:',Math.round(b64.length/1024)+'KB');
+    };
+    img.src=e.target.result;
+  };
+  reader.readAsDataURL(f);
+}
 async function processImg(inputId){
   const el=document.getElementById(inputId);
-  if(el.value==='__pending__'){
-    const fileInput=el.parentElement.querySelector('input[type="file"]');
-    if(fileInput&&fileInput.files[0]){return await uploadImage(fileInput.files[0])}
-  }
-  return el.value||null;
+  const val=el?el.value:'';
+  if(val&&val.startsWith('data:'))return val;
+  return null;
 }
 function iconSel(id,cur){const ic=['fa-building','fa-bolt','fa-drafting-compass','fa-couch','fa-tools','fa-seedling','fa-key','fa-clipboard-check','fa-home','fa-paint-roller','fa-hard-hat','fa-ruler-combined','fa-truck','fa-warehouse','fa-city','fa-landmark','fa-hospital','fa-store','fa-school','fa-mosque'];return`<div class="fg" style="margin-bottom:12px"><label>Icon</label><select id="${id}">${ic.map(i=>`<option value="${i}"${i===cur?' selected':''}><i class="fas ${i}"></i> ${i}</option>`).join('')}</select></div>`}
 
@@ -322,30 +358,9 @@ async function sHero(){const img=await processImg('h_img');if(img)D.hero.img=img
 function rAAbout(){document.getElementById('ap_about').innerHTML=`<h3>About Section</h3>${imgUpHTML('a_img',D.about.img,'About Image')}${textF('a_te','Tag (EN)',D.about.tag.en)}${textF('a_ta','Tag (AR)',D.about.tag.ar,1)}${textF('a_tle','Title (EN)',D.about.title.en)}${textF('a_tla','Title (AR)',D.about.title.ar,1)}${areaF('a_de','Description (EN)',D.about.desc.en)}${areaF('a_da','Description (AR)',D.about.desc.ar,1)}<h4 style="color:var(--gold);margin:14px 0 8px">Statistics</h4>${D.about.stats.map((s,i)=>`<div style="display:flex;gap:6px;margin-bottom:6px"><input type="text" id="as_n${i}" value="${s.n}" style="width:70px" placeholder="#"><input type="text" id="as_e${i}" value="${s.en}" placeholder="EN"><input type="text" id="as_a${i}" value="${s.ar}" placeholder="AR" dir="rtl"></div>`).join('')}<button class="btn btn-g" onclick="sAbout()">💾 Save About</button>`}
 async function sAbout(){const img=await processImg('a_img');if(img)D.about.img=img;D.about.tag={en:gv('a_te'),ar:gv('a_ta')};D.about.title={en:gv('a_tle'),ar:gv('a_tla')};D.about.desc={en:gv('a_de'),ar:gv('a_da')};D.about.stats=D.about.stats.map((s,i)=>({n:gv('as_n'+i),en:gv('as_e'+i),ar:gv('as_a'+i)}));await saveData();renderAll();toast('✅ About saved!')}
 
-// FOUNDER
-function rAFounder(){
-  const f=D.founder;const hasImg=f.img&&f.img.length>5;
-  document.getElementById('ap_founder').innerHTML=`<h3>👤 Founder — المؤسس</h3>
-  <p class="desc">Edit the founder section — photo, name, title, quote, and biography</p>
-  ${imgUpHTML('ef_img',f.img,'Founder Photo — صورة المؤسس')}
-  ${textF('ef_ne','Name (EN) — use &lt;em&gt; for gold',f.name.en)}
-  ${textF('ef_na','Name (AR)',f.name.ar,1)}
-  ${textF('ef_re','Title (EN)',f.role.en)}
-  ${textF('ef_ra','Title (AR)',f.role.ar,1)}
-  ${areaF('ef_qe','Quote (EN)',f.quote.en)}
-  ${areaF('ef_qa','Quote (AR)',f.quote.ar,1)}
-  ${areaF('ef_be','Biography (EN)',f.bio.en)}
-  ${areaF('ef_ba','Biography (AR)',f.bio.ar,1)}
-  <button class="btn btn-g" onclick="sFounder()">💾 Save Founder</button>`;
-}
-async function sFounder(){
-  const img=await processImg('ef_img');if(img)D.founder.img=img;
-  D.founder.name={en:gv('ef_ne'),ar:gv('ef_na')};
-  D.founder.role={en:gv('ef_re'),ar:gv('ef_ra')};
-  D.founder.quote={en:gv('ef_qe'),ar:gv('ef_qa')};
-  D.founder.bio={en:gv('ef_be'),ar:gv('ef_ba')};
-  await saveData();renderAll();rAFounder();toast('✅ Founder saved!');
-}
+// FOUNDER ADMIN
+function rAFounder(){document.getElementById('ap_founder').innerHTML=`<h3>المؤسس — The Founder</h3><p class="desc">Edit the founder section — photo, name, bio, and quote</p>${imgUpHTML('ef_img',D.founder.img,'Founder Photo')}${textF('ef_te','Tag (EN)',D.founder.tag.en)}${textF('ef_ta','Tag (AR)',D.founder.tag.ar,1)}${textF('ef_ne','Name (EN) — use \// SERVICESlt;em\// SERVICESgt; for gold',D.founder.name.en)}${textF('ef_na','Name (AR)',D.founder.name.ar,1)}${textF('ef_re','Role (EN)',D.founder.role.en)}${textF('ef_ra','Role (AR)',D.founder.role.ar,1)}${areaF('ef_qe','Quote (EN)',D.founder.quote.en)}${areaF('ef_qa','Quote (AR)',D.founder.quote.ar,1)}${areaF('ef_txe','Full Bio (EN)',D.founder.text.en)}${areaF('ef_txa','Full Bio (AR)',D.founder.text.ar,1)}${textF('ef_se','Signature (EN)',D.founder.sig.en)}${textF('ef_sa','Signature (AR)',D.founder.sig.ar,1)}<button class="btn btn-g" onclick="sFounder()">💾 Save Founder</button>`}
+async function sFounder(){const img=await processImg('ef_img');if(img)D.founder.img=img;D.founder.tag={en:gv('ef_te'),ar:gv('ef_ta')};D.founder.name={en:gv('ef_ne'),ar:gv('ef_na')};D.founder.role={en:gv('ef_re'),ar:gv('ef_ra')};D.founder.quote={en:gv('ef_qe'),ar:gv('ef_qa')};D.founder.text={en:gv('ef_txe'),ar:gv('ef_txa')};D.founder.sig={en:gv('ef_se'),ar:gv('ef_sa')};await saveData();renderAll();toast('✅ Founder section saved!')}
 
 // SERVICES
 function rASrv(){let h='<h3>Services</h3><p class="desc">Add, edit, delete</p><div class="als">';D.services.items.forEach((s,i)=>{h+=`<div class="ai"><div style="display:flex;gap:8px;align-items:center"><i class="fas ${s.icon}" style="color:var(--gold)"></i><div><h4>${s.en}</h4><p>${s.ar}</p></div></div><div class="aa"><button class="ae" onclick="eSrv(${i})">Edit</button><button class="adl" onclick="dSrv(${i})">Del</button></div></div>`});h+='</div><button class="aad" onclick="nSrv()">+ Add Service</button>';document.getElementById('ap_services').innerHTML=h}
@@ -526,9 +541,6 @@ async function sSet(){D.settings={pw:gv('s_pw')};D.footer.desc={en:gv('s_fde'),a
 
 function gv(id){return document.getElementById(id)?.value||''}
 
-// =============================================
-// INIT
-// =============================================
 (async function(){
   await loadData();
   renderAll();
