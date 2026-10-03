@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -214,7 +214,7 @@ footer{padding:80px 44px 0;overflow:hidden}
 </div></div>
 <div class="sprog" id="sprog"></div><div class="cols"><i></i><i></i><i></i><i></i><i></i></div>
 <div class="cur" id="cur"></div><div class="cur-r" id="curR"><span id="curT">VIEW</span></div>
-<nav id="nav"><a href="#" class="lg"><div class="lg-i"><div class="y"></div><div class="r"></div><div class="b"></div></div><div class="lg-t"><b>CARBON</b><small>ENGINEERING DESIGN</small></div></a><div class="nl" id="nlEl"></div><div class="nr"><button class="lbtn" onclick="tgLang()" id="lBtn">العربية</button><button class="mbtn" onclick="tgMob()"><i class="fas fa-bars"></i></button></div></nav>
+<nav id="nav"><a href="#" class="lg"><div class="lg-i"><div class="y"></div><div class="r"></div><div class="b"></div></div><div class="lg-t"><b>CARBON</b><small>ENGINEERING DESIGN</small></div></a><div class="nl" id="nlEl"></div><div class="nr"><button class="lbtn" onclick="tgLang()" id="lBtn">English</button><button class="mbtn" onclick="tgMob()"><i class="fas fa-bars"></i></button></div></nav>
 <div class="mm" id="mobM" data-lenis-prevent><button class="mm-x" onclick="tgMob()"><i class="fas fa-times"></i></button><div id="mobLinks"></div></div>
 <section class="hero"><div class="hero-bg" id="hBg"><img id="hImg" class="hs on" alt=""></div><div class="hero-ov"></div><div class="hero-ln"><i class="a"></i><i class="b"></i><i class="c"></i></div><div class="hero-c"><p class="hero-tag" id="hTag"></p><h1 class="hero-h" id="hTitle"></h1><p class="hero-p" id="hSub"></p><div class="hero-cta"><a href="#projects" class="btn btn-g" id="hBtn1"></a><a href="#contact" class="btn btn-o" id="hBtn2"></a></div></div><div class="hero-sd">Est. 2019 — Muscat, Oman</div><div class="hero-bt"><div class="hero-cap"><span id="hCapN">01</span><b id="hCapT"></b></div><div class="hero-pg" id="hPg"></div><a href="#about" class="hero-sc"><span>SCROLL</span><i></i></a></div></section>
 <div class="band"><div class="band-t" id="bandT"></div></div>
@@ -291,7 +291,7 @@ const DEF={
   settings:{}
 };
 
-let D,lang='en',inqs=[];
+let D,lang='ar',inqs=[];
 function gI(k){if(k&&k.startsWith('fs:'))return FSIMG[k.slice(3)]||IMGS.hero;return k&&k.startsWith('data:')?k:k&&k.startsWith('http')?k:(IMGS[k]||IMGS.hero)}
 function L(o){return o?(o[lang]||o.en||''):''}
 function gv(id){const e=document.getElementById(id);return e?e.value:''}
